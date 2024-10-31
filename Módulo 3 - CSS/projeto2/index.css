@@ -1,0 +1,36 @@
+* {
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.logo {
+    align-items: center ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    background-color: #DDA0DD;
+}
+  
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 200px 10px 200px;
+    list-style-type: none;
+    background-color: #DDA0DD;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    color: white;
+}
+
